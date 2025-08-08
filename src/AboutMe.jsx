@@ -1,19 +1,33 @@
-import React from 'react';
+import React from "react";
 
-export default function AboutMe() {
+const AboutMe = () => {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">About Me</h1>
       <p className="mb-4">
-        My name is Jerry Chieng Chin Tung, an Assistant Medical Officer and technology enthusiast.
+        My name is <strong>Jerry Chieng Chin Tung</strong>, an{" "}
+        <strong>Assistant Medical Officer</strong> with strong interests in{" "}
+        <strong>emergency medicine</strong>, <strong>pre-hospital care</strong>, and{" "}
+        <strong>technology</strong>, especially <strong>generative AI</strong>.
       </p>
       <p className="mb-4">
-        I have strong intellectual interests in emergency medicine, artificial intelligence, computer science, and human psychology.
-        Creatively, I explore AI-driven image generation and visual storytelling with technology.
+        Besides my professional work, I actively explore the use of AI in healthcare and beyond,
+        developing tools and solutions to improve efficiency and decision-making.
       </p>
-      <p className="mb-4">
-        I am committed to studying Reformed Christian theology and Scripture-centric teaching, prioritizing biblical truth over institutional tradition.
+      <p>
+        Do support me by sharing your opinions on this tool. If you wish to contribute through
+        donations, please contact me personally via my social media platforms such as Facebook:{" "}
+        <a
+          href="https://www.facebook.com/jerrycct/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          https://www.facebook.com/jerrycct/
+        </a>
       </p>
     </div>
   );
-}
+};
+
+export default AboutMe;
